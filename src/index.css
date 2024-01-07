@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    th{
+        @apply border-[1px] border-gray-300 px-1 text-[12px]
+    }
+
+    .head{
+        @apply bg-[#31859b] text-white py-1 px-1 relative text-base
+    }
+    .updatable{
+@apply cursor-pointer hover:bg-gray-100 transition-all
+    }
+}
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
